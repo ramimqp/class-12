@@ -1,0 +1,215 @@
+/* COMMON CSS START  */
+/* COMMON CSS START  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ol, ul{
+    list-style-type: none;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+@font-face{
+    src: url(../myriad-pro-cufonfonts/MYRIADPRO-BOLD.OTF);
+    font-family: 'ramim-bold';
+}
+@font-face{
+    src: url(../myriad-pro-cufonfonts/MyriadPro-Light.otf);
+    font-family: 'ramim-light';
+}
+@font-face{
+    src: url(../myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF);
+    font-family: 'ramim-regular';
+}
+@font-face{
+    src: url(../myriad-pro-cufonfonts/MYRIADPRO-SEMIBOLD.OTF);
+    font-family: 'ramim-semibold';
+}
+.dlr{
+    clear: both;
+}
+/* COMMON CSS END */
+ /* HEADER PART START  */
+#header{
+    background: #0872b9;
+    height: 32px;
+}
+.header-left{
+    width: 50%;
+    float: left;
+}
+.header-left p{
+    color: #fff;
+    line-height: 32px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-right{
+    width: 50%;
+    float: left;
+    text-align: end;
+}
+.header-right a{
+    color: #fff;
+    text-align: end;
+    margin: 0 22px;
+    line-height: 32px;
+    font-size: 14px;
+    transition: all linear 0.5s;
+}
+.header-right a:hover{
+    color:#2a4456 ;
+}
+ /* HEADER PART END */
+ /* NAVBAR PART START  */
+#navbar{
+    height: 80px;
+    /* background: #ffffff; */
+    background: #ffffff;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo a{
+    padding-top: 20px;
+}
+.nav-items ul{
+    float: right;
+}
+.nav-items ul li{
+    float: left;
+    line-height: 80px;
+}
+.nav-items ul li a{
+    color: #6c6c6c;
+    margin: 0 15px ;
+    font-size: 14px;
+    font-family: 'ramim-regular';
+    transition: all linear 0.5s;
+}
+.nav-items ul li a:hover{
+    color: #5893c7;
+}
+
+ /* NAVBAR PART END */
+ /* BANNER PART START  */
+ #banner{
+    background-image: url(../images/Banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 87px 0;
+    position: relative;
+    z-index: 1;
+ }
+ #banner:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+ }
+ .banner-text{
+    text-align: right;
+    float: right;
+ }
+ .banner-text h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #fff;
+ }
+ .banner-text h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #fff;
+ }
+ .banner-text p{
+    width: 460px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+ }
+ .banner-text a{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid #fff;
+    transition: all linear 0.5s;
+    margin: 20px;
+}
+.banner-text a:hover{
+    background: #0872b9;
+    border: 1px solid #0872b9;
+ }
+ /* BANNER PART END */
+ /* ABOUT CSS START  */
+ #about{
+    padding-top: 60px;
+    text-align: center;
+ }
+ .common-title h3{
+    font-family: 'oswald', sans-serif;
+    color: #000;
+    font-size: ;
+ }
+ .common-title{
+    position: relative;
+    display: inline-block;
+ }
+ .common-title img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ }
+ .about-img{
+    position: relative;
+}
+.about-img img{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 380px;
+    height: 267px;
+    float: left;
+ }
+.about-text{
+    position: relative;
+}
+.about-text p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    line-height: 24px;
+    position: absolute;    
+    top: 40px;
+    text-align: left;
+    left: 400px;
+}
+.about-text p1{
+    font-size: 13px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    line-height: 24px;
+    position: absolute;    
+    top: 140px;
+    left: 400px;
+    line-height: 24px;
+}
+ /* ABOUT CSS END */
