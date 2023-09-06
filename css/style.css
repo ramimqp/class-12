@@ -153,63 +153,130 @@ ol, ul{
     transition: all linear 0.5s;
     margin: 20px;
 }
+
 .banner-text a:hover{
     background: #0872b9;
     border: 1px solid #0872b9;
  }
  /* BANNER PART END */
- /* ABOUT CSS START  */
+ /* ABOUT PART START */
  #about{
-    padding-top: 60px;
     text-align: center;
  }
- .common-title h3{
-    font-family: 'oswald', sans-serif;
-    color: #000;
-    font-size: ;
+ .about-row{
+    padding-top: 10px;
  }
  .common-title{
     position: relative;
     display: inline-block;
- }
- .common-title img{
-    position: absolute;
-    bottom: 0;
-    left: 0;
- }
- .about-img{
-    position: relative;
+    padding-bottom: 30px;
+    padding-top: 60px
 }
-.about-img img{
+.common-title h3{ 
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: #353535;
+}
+.common-title img{ 
     position: absolute;
-    top: 40px;
+    bottom: 30px;
     left: 0;
+}
+.about-img{
     width: 380px;
-    height: 267px;
     float: left;
- }
+    margin-right: 20px;
+}
 .about-text{
-    position: relative;
+    width: 540px;
+    float: left;
 }
 .about-text p{
-    font-size: 13px;
-    font-family: 'Open Sans', sans-serif;
-    color: #000;
-    line-height: 24px;
-    position: absolute;    
-    top: 40px;
-    text-align: left;
-    left: 400px;
-}
-.about-text p1{
-    font-size: 13px;
+    padding: 45px 0;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    color: #000;
-    line-height: 24px;
-    position: absolute;    
-    top: 140px;
-    left: 400px;
+    font-size: 13px;
     line-height: 24px;
 }
- /* ABOUT CSS END */
+.about-text p span{
+    margin-top: 20px;
+    display: block;
+}
+.clr{
+    clear: both;
+}
+ /* ABOUT PART END */
+ /* SERVICE PART START  */
+#service{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.service-row{
+    padding-top: 68px;
+}
+.service-col{
+    margin-right: 20px;
+    width: 31%;
+    background: #f1f1f1;
+    padding: 50px 12px 20px 22px;
+    position: relative;
+    float: left;
+}
+.service-col h4{
+    font-family: 'oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #353535;
+    text-transform: uppercase;
+}
+.service-col p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #727272;
+}
+.service-icon{
+    height: 69px;
+    width: 69px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: #f1f1f1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all linear 0.3s;
+}
+.service-icon img{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.service-icon:after{
+    content: '';
+    height: 69px;
+    width: 69px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    transition: all linear 0.3s;
+
+}
+.service-icon:before{
+    content: '';
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 4px solid #fff;
+
+}
+ /* SERVICE PART END */
